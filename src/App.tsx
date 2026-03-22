@@ -177,7 +177,13 @@ function App() {
           <h1>书法格子生成工具</h1>
         </div>
         <div className="topbar__actions">
-          <a className="ghost-link" href="#" aria-label="GitHub 占位链接">
+          <a
+            className="ghost-link"
+            href="https://github.com/Minsecrus/Calligrid"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub 仓库链接"
+          >
             GitHub
           </a>
           <button className="primary-button" type="button" onClick={exportPdf}>
