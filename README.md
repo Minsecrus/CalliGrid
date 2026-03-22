@@ -24,6 +24,16 @@ pnpm dev
 pnpm build
 ```
 
+## Deploy
+
+GitHub Actions workflow is configured for GitHub Pages deployment.
+
+Target URL:
+
+`https://minsecrus.github.io/Minsecrus/CalliGrid`
+
+In the repository settings, set Pages source to `GitHub Actions`.
+
 ## License
 
 MIT
