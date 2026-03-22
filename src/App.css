@@ -12,9 +12,6 @@
   padding: 24px 28px;
   border: 1px solid var(--line);
   border-radius: 28px;
-  background:
-    linear-gradient(135deg, rgba(246, 236, 218, 0.92), rgba(255, 251, 245, 0.88)),
-    var(--paper);
   box-shadow: 0 18px 50px rgba(77, 54, 33, 0.08);
 }
 
@@ -98,10 +95,6 @@
   background: rgba(255, 251, 245, 0.78);
   box-shadow: 0 12px 40px rgba(87, 61, 39, 0.06);
   backdrop-filter: blur(12px);
-}
-
-.panel-card--muted {
-  background: linear-gradient(180deg, rgba(236, 224, 208, 0.84), rgba(249, 243, 236, 0.76));
 }
 
 .section-heading--row {
@@ -239,7 +232,7 @@
   align-items: center;
   padding: 8px 12px;
   border-radius: 999px;
-  background: rgba(176, 64, 27, 0.1);
+  /* background: rgba(176, 64, 27, 0.1); */
   color: #8a351d;
   font-size: 14px;
 }
