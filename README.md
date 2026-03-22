@@ -30,7 +30,7 @@ GitHub Actions workflow is configured for GitHub Pages deployment.
 
 Target URL:
 
-`https://minsecrus.github.io/Minsecrus/CalliGrid`
+`https://minsecrus.github.io/Calligrid/`
 
 In the repository settings, set Pages source to `GitHub Actions`.
 
