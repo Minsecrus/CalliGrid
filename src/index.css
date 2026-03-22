@@ -1,0 +1,70 @@
+:root {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'STSong', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #3e2e22;
+  background:
+    radial-gradient(circle at top left, rgba(219, 188, 146, 0.28), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(162, 84, 50, 0.12), transparent 24%),
+    linear-gradient(180deg, #f3eadf 0%, #efe4d7 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --paper: #fffaf4;
+  --paper-strong: #fffdf9;
+  --ink: #3e2e22;
+  --muted: #8e7762;
+  --line: rgba(96, 68, 47, 0.16);
+  --display: 'STKaiti', 'KaiTi', 'Songti SC', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid rgba(161, 69, 37, 0.58);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+p {
+  margin: 0;
+}
