@@ -1,6 +1,6 @@
-# Calligrid
+# CalliGrid
 
-Calligrid is a calligraphy grid generator built with React, TypeScript, and Vite.
+CalliGrid is a calligraphy grid generator built with React, TypeScript, and Vite.
 
 ## Features
 
@@ -30,7 +30,7 @@ GitHub Actions workflow is configured for GitHub Pages deployment.
 
 Target URL:
 
-`https://minsecrus.github.io/Calligrid/`
+`https://minsecrus.github.io/CalliGrid/`
 
 In the repository settings, set Pages source to `GitHub Actions`.
 
