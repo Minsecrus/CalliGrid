@@ -195,10 +195,6 @@ function App() {
       <main className="workspace">
         <aside className="control-panel">
           <section className="panel-card">
-            <div className="section-heading">
-              <p className="section-heading__eyebrow">页面规格</p>
-              <h2>选项区</h2>
-            </div>
 
             <div className="field-grid">
               <div className="field">
@@ -337,7 +333,6 @@ function App() {
           <article className="panel-card">
             <div className="section-heading section-heading--row">
               <div>
-                <p className="section-heading__eyebrow">细节检查</p>
                 <h2>单个格子预览区</h2>
               </div>
               <span className="badge">{guideLabel}</span>
@@ -351,7 +346,6 @@ function App() {
           <article className="panel-card page-preview-card">
             <div className="section-heading section-heading--row">
               <div>
-                <p className="section-heading__eyebrow">排版结果</p>
                 <h2>整页预览区</h2>
               </div>
               <span className="page-meta">
